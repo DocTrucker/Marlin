@@ -1088,8 +1088,8 @@
 #define Y_BED_SIZE 214
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -150
-#define Y_MIN_POS -106
+#define X_MIN_POS -118.5
+#define Y_MIN_POS -103.5
 #define Z_MIN_POS 0
 #define X_MAX_POS 110
 #define Y_MAX_POS 108
@@ -1121,7 +1121,7 @@
 #endif
 
 #if EITHER(MIN_SOFTWARE_ENDSTOPS, MAX_SOFTWARE_ENDSTOPS)
-  //#define SOFT_ENDSTOPS_MENU_ITEM  // Enable/Disable software endstops from the LCD
+  #define SOFT_ENDSTOPS_MENU_ITEM  // Enable/Disable software endstops from the LCD
 #endif
 
 /**
