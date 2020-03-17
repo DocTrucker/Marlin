@@ -41,12 +41,13 @@
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2020-01-31"
+#define STRING_DISTRIBUTION_DATE "2020-01-31"
+
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+#define MACHINE_NAME "Creaky Steel"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -54,12 +55,12 @@
  * has a distinct Github fork— the Source Code URL should just be the main
  * Marlin repository.
  */
-//#define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
+#define SOURCE_CODE_URL "https://github.com/DocTrucker/Marlin.git"
 
 /**
  * Default generic printer UUID.
  */
-//#define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
+#define DEFAULT_MACHINE_UUID "91ab7713-bad5-4dd4-be42-433be6b9df1f"
 
 /**
  * The WEBSITE_URL is the location where users can get more information such as
